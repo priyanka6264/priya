@@ -15,13 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+<build>
+ <plugins>
    <plugin>
      <artifactId>maven-war-plugin</artifactId>
      <version>3.0</version>
      <configuration>
      <failOnMissingWebXml>false</failOnMissingWebXml>
      </configuration>
-  </plugin>
- </build>
+    </plugin>
+  </plugins>
+</build>
 </project>
